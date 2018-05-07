@@ -1,4 +1,5 @@
 # exercice-markdown
+
 Exercice MarkDown : Intelligence Collective
 
 On s'occuper du **MarkDown**, faire une sheet cheat, pense-bete avec la syntaxe, trucs et astuces pour ce langauge.
@@ -12,4 +13,4 @@ Paul -
 Christophe -
 Baptiste - 
 
-Lien utile : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/>
+Lien utile : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/k>
