@@ -25,6 +25,10 @@ Oubliez pas de separer le tableau d'une ligne au dessus et au desous et surtout 
     code
     python
 
-'''python  
-print(x)  
-'''
+```python  
+
+
+print()  
+
+
+```  
