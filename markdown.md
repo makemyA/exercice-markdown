@@ -14,21 +14,22 @@ ou bien
 
 Entete 1|Entete 2|Entete 3  
 :-|:-:|-:  
-1|2|3  
+Ligne 1|1|value  
 
 Oubliez pas de separer le tableau d'une ligne au dessus et au desous et surtout n'oubliez pas les deux espaces a la fin de chaque ligne, le retour a la ligne.  
 
 
 ## Partager du code avec MarkDown
 
-
-    code
-    python
-
+Le partage du **code** grace au MarkDown est d'une simplicite a toute epreuve, il suffit de **quatre espaces** qui se suivent pour creer ce *block-code*.  On peut egalement utiliser le symbole **\`**, l'*anti-apostrophe* ou bien the *backticks*, pour les anglophones, ou bien la *contre-apostrophe*. Il suffit d'en mettre une au debut et la fin du code pour que ca donne une integration dans le texte, exemple\`code\` donne `code`. Grace a **\`** ont peut se passer des espaces, il suffit de deux lignes avec trois **\`** avec le *bloc-code* a l'interieur, exemple:  
+    \`\`\`  
+    code  
+    \`\`\`  
+Si jamais on veut mettre en evidence la syntaxe du language utilise dans le *block-code* il suffit de le preciser apres les trois premier \`, exemple:  
 ```python  
-
-
-print()  
-
-
+\`\`\`python  
+def addition(a,b):
+  return(a+b)
+\`\`\`
 ```  
+N'oublier pas le saut a la ligne, cad **les deux espaces** a la fin de chaque ligne.
