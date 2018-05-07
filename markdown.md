@@ -14,4 +14,5 @@ ou bien
 |:-|:-:|-:|
 Ligne 1|1|value'''
 
-''' code '''
+    code
+    python
