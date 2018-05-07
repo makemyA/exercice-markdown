@@ -1,4 +1,4 @@
-#Bienvenue sur MarkDown : Intelligence Collective
+# Bienvenue sur MarkDown : Intelligence Collective
 
 Le Markdown est une manière super simple d'ajouter des titres, des listes à du simple texte.  
  
@@ -12,16 +12,16 @@ Le Markdown est une manière super simple d'ajouter des titres, des listes à du
 
 ## Contenus 
 
-* [ ] Titre - Heading
-* [ ] Accentuation - Emphasis
-* [ ] Liste - List
-* [ ] Lien - Link 
-* [ ] Image
-* [ ] Video
-* [ ] Tableau - Table
-* [ ] Code et mise en évidence de la syntaxe 
-* [ ] Bloc de citation(s) - Blockquotes
-* [ ] Ligne horizontale
+* [ ] [Titre - Heading]()
+* [ ] [Accentuation - Emphasis]()
+* [ ] [Liste - List]()
+* [ ] [Lien - Link ]()
+* [ ] [Image]()
+* [ ] [Video]()
+* [ ] [Tableau - Table]()
+* [ ] [Code et mise en évidence de la syntaxe]()
+* [ ] [Bloc de citation(s) - Blockquotes]()
+* [ ] [Ligne horizontale]()
 
 
 
