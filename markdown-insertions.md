@@ -14,11 +14,11 @@ Pour insérer des images statiques, il faut utiliser la syntaxe suivante:
 
 Les formats d'images animées sont aussi acceptés. Exemple:
 
-![Bear gets hit in the balls](https://i.imgur.com/fPGqKEM.gifv)
+![Bear gets hit in the balls](https://i.imgur.com/fPGqKEM.gif)
 
 ## Vidéos
 
-Il n'est pas possible d'implenter une vidéo avec Markdown, mais il est suggéré d'afficher une miniature cliquable qui amènera vers la vidéo désirée. Sous forme de code:
+Il n'est pas possible d'implanter une vidéo avec Markdown, mais il est suggéré d'afficher une miniature cliquable qui amènera vers la vidéo désirée. Sous forme de code:
 
     [![Description de l'image](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
