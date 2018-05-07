@@ -11,6 +11,6 @@ Romain - Insertion images (statiques/animées) et vidéos
 Claudiu -
 Paul -
 Christophe -
-Baptiste - 
+Baptiste - 2 ou 3 niveaux de titres et sous-titres et des liens
 
 Lien utile : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/k>
