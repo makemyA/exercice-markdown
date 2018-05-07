@@ -8,13 +8,13 @@
 
 ## Images
 
-Pour insérer des images statiques, il faut utiliser la syntaxe suivante:
+Pour insérer des images, il faut utiliser la syntaxe suivante:
 
     ![Description de l'image](URL de l'image)
 
-Les formats d'images animées sont aussi acceptés. Exemple:
+Exemple:
 
-![Bear gets hit in the balls](https://i.imgur.com/fPGqKEM.gif)
+![Flies having a good time](https://i.redd.it/xpx53459sbw01.jpg)
 
 ## Vidéos
 
