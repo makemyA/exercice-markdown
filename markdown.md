@@ -6,7 +6,7 @@ Rien de plus facile que de creer des tableaux avec MarkDown. Il suffit juste de 
     | :------------ |:--------------: | ---------: |  
     | Ligne 1       |        1        |      value |  
     | Ligne 2       |        2        |      value |  
-    | Ligne 3       |        3        |      value |''' 
+    | Ligne 3       |        3        |      value |  
 
 ou bien  
 
