@@ -9,12 +9,14 @@ Rien de plus facile que de creer des tableaux avec MarkDown. Il suffit juste de 
 ou bien  
     |Entete 1|Entete 2|Entete 3|  
     |:-|:-:|-:|  
-    Ligne 1|1|value
+    Ligne 1|1|value  
 (notez que | ne sont pas necessaires au debut ou a la fin) vont donner le meme tabeau:
 
 Entete 1|Entete 2|Entete 3  
 :-|:-:|-:  
 1|2|3  
+
+Oubliez pas de separer le tableau d'une ligne au dessus et au desous et surtout n'oubliez pas les deux espaces a la fin de chaque ligne, le retour a la ligne.  
 
     code
     python
