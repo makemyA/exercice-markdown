@@ -6,7 +6,7 @@ Qui s'occupe de quoi:
 Sammuel - README.md du master
 Romain - 
 Claudiu -
-Paul -
+Paul - Listes à puces, à numéro,... Tout ce qui concerne les puces donc
 Christophe -
 Baptiste -
 
