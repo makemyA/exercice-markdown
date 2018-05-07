@@ -27,9 +27,9 @@ Le partage du **code** grace au MarkDown est d'une simplicite a toute epreuve, i
     \`\`\`  
 Si jamais on veut mettre en evidence la syntaxe du language utilise dans le *block-code* il suffit de le preciser apres les trois premier \`, exemple:  
 ```python  
-\```python  
-def addition(a,b):
-  return(a+b)
-\```
+    ```python  
+    def addition(a,b):
+      return(a+b)
+    ```
 ```  
 N'oublier pas le saut a la ligne, cad **les deux espaces** a la fin de chaque ligne.
