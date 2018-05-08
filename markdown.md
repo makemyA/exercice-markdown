@@ -25,7 +25,7 @@ Pour convertir un texte en titre, il suffit d'ajoute un ```#``` avant.
 
 ## Texte en *Italique*
 
-Afin de convertir un bout de texte en *italique*, utilisez un ```*``` ou ```_``` au extremit√© du texte.
+Afin de convertir un bout de texte en *italique*, utilisez un ```*``` ou ```_``` aux extremit√s du texte.
 
 **Exemple**:
 ```
@@ -38,7 +38,7 @@ _Ce texte est en italique_
 
 ## Texte en **Gras**
 
-Afin de convertir un bout de texte en **gras**, utilisez un ```*``` ou ```_``` au extremit√© du texte.
+Afin de convertir un bout de texte en **gras**, utilisez un ```*``` ou ```_``` aux extremit√s du texte.
 
 **Exemple**:
 ```
