@@ -1,3 +1,5 @@
+
+
 # Titre - Headers
 
 Pour convertir un texte en titre, il suffit d'ajoute un ```#``` avant.
@@ -27,6 +29,9 @@ Afin de convertir un bout de texte en *italique*, utilisez un ```*``` ou ```_```
 *Ce texte est en italique*
 _Ce texte est en italique_
 ```
+*Résultat*
+*Ce texte est en italique*
+_Ce texte est en italique_
 
 ## Texte en **Gras**
 
@@ -35,8 +40,24 @@ Afin de convertir un bout de texte en **gras**, utilisez un ```*``` ou ```_``` a
 **Exemple**:
 ```
 **Ce texte est en gras**
-__Ce texte est en gras
+__Ce texte est en gras__
 ```
+*Résultat*
+**Ce texte est en gras**
+__Ce texte est en gras__
+
+# Bloc de citation(s) - Blockquotes
+
+Afin de convertir un bout de texte en une citation, utilisez un ```>``` au début du texte.
+
+**Exemple**:
+```
+> Ceci est une citation
+```
+*Résultat*
+> Ceci est une citation
+
+
 
 # Tableaux - Table
 
