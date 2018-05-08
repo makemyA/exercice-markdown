@@ -1,5 +1,7 @@
+# **Documentation Markdown**
 
-
+Pour plus d'informations concernant ce projet rendez-vous sur le [README](https://github.com/SammuelJ/exercice-markdown/tree/master)
+----------
 
 # Titre - Headers
 
@@ -97,7 +99,6 @@ Afin de convertir un bout de texte en une citation, utilisez un ```>``` au débu
 
 
 # Tableaux - Table
->>>>>>> Sammuel
 
 Rien de plus facile que de créer des tableaux avec MarkDown. Il suffit juste de mettre des \| à la place des *bareaux* du tableau. Il faut savoir que la premiere ligne sert d'entete, la seconde sert à indiquer l'allignement du texte a l'interieur des *cases* du tableau, a gauche: ':-', au centre: ':-:', a droite: '-:'.  
 
@@ -148,3 +149,22 @@ Donc, le texte du lien, tel qu'il apparaitra cliquable, entre crochets.
 Et l'url du lien (ex: https://fr.wikipedia.org/wiki/Markdown) entre parenthèses.
 On peut également rajouter un texte descriptif du lien entre guillemets, après l'url, qui apparaitra lorsque l'on survole le lien avec la souris.
 
+# Lignes horizontaux
+
+Les lignes horizontaux peuvent être créés en tapant trois ou quatre astérisques (```*```), tirets (```-```) ou caractères soulignés (```_```) tous seuls sur une ligne.
+
+Le code suivant fonctionnera :
+
+ ``` *** ```
+
+mais vous pouvez ajouter des espaces ou plus de mêmes caractères pour rendre plus visible un saut de section dans la fenêtre d'édition du texte.
+**Exemple**
+``` * * * * * ```
+
+``` ------------------------- ```
+
+``` _ _ _ _ _ ```
+ 
+Toutes ces méthodes donneront exactement le même résultat :
+
+_ _ _ _ _
