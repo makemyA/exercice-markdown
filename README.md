@@ -1,7 +1,7 @@
 # Bienvenue sur MarkDown : Intelligence Collective
 
 Le Markdown est une manière super simple d'ajouter des titres, des listes à du simple texte.  
-Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe créer par [notre équipe](https://github.com/SammuelJ/exercice-markdown#contributeurs-).  s
+Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe créer par [notre équipe](https://github.com/SammuelJ/exercice-markdown#contributeurs-).  
 **Pour y acceder**, cliquez sur le sujet qui vous intéresse dans la partie ["Contenus"](https://github.com/SammuelJ/exercice-markdown#contenus)
 
 ## Status
