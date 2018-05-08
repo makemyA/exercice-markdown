@@ -80,7 +80,7 @@ N'oubliez pas le saut a la ligne, cad **les deux espaces** à la fin de chaque l
 
 Pour partager des **liens** avec MarkDown il suffit de suivre la synthaxe suivante : 
 
-[texte du lien](url_du_lien "texte pour le titre, facultatif")
+```[texte du lien](url_du_lien "texte pour le titre, facultatif")```
 
 Donc, le texte du lien, tel qu'il apparaitra cliquable, entre crochets.
 Et l'url du lien (ex: https://fr.wikipedia.org/wiki/Markdown) entre parenthèses.
