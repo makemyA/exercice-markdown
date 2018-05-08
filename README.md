@@ -1,16 +1,52 @@
-# exercice-markdown
+# Bienvenue sur MarkDown : Intelligence Collective
 
-Exercice MarkDown : Intelligence Collective
+Le Markdown est une manière super simple d'ajouter des titres, des listes à du simple texte.  
+Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe créer par [notre équipe](https://github.com/SammuelJ/exercice-markdown#contributeurs-).
+**Pour y acceder**, cliquez sur le sujet qui vous intéresse dans la partie ["Contenus"](https://github.com/SammuelJ/exercice-markdown#contenus)
 
-On s'occuper du **MarkDown**, faire une sheet cheat, pense-bete avec la syntaxe, trucs et astuces pour ce langauge.
-Creer chaqu'un de votre cote une petite branche, on fera un gros merge sur le master pour la fin.
+## Status
 
-Qui s'occupe de quoi:
-Sammuel - README.md du master
-Romain - Insertion images (statiques/anim�es) et vid�os
-Claudiu -
-Paul -
-Christophe -
-Baptiste - 2 ou 3 niveaux de titres et sous-titres et des liens
+#### **Progression:** En cours ...
+#### **Debut&eacute; le:** Lundi 07-05-2018
+#### **Termin&eacute; le:** 
+#### **TO-DO:** 
+- [ ] Rediger le contenu des differentes parties
+- [ ] Verification du contenu
+- [ ] Merge les differentes branches avec le master
 
-Lien utile : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/k>
+
+## Origine du projet
+
+Ce projet est un exercice [BeCode.org](https://BeCode.org) à faire en groupe en utilisant les technologies listées ci-dessous.  
+Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/exercice-markdown-groupe.md)
+
+## Technologies utilisées
+
+* Git
+* Github
+* MarkDown
+
+## Contenus 
+
+* [ ] [Titre - Heading]()
+* [ ] [Accentuation - Emphasis]()
+* [ ] [Liste - List]()
+* [ ] [Lien - Link ]()
+* [x] [Image]()
+* [x] [Video]()
+* [x] [Tableau - Table]()
+* [x] [Code et mise en évidence de la syntaxe]()
+* [ ] [Bloc de citation(s) - Blockquotes]()
+* [ ] [Ligne horizontale]()
+
+
+
+## Contributeurs :
+
+[@ClaudiuCornea - Claudiu Cornea](https://github.com/ClaudiuCornea)  
+[@jiftuq - Chritophe Kwizera](https://github.com/jiftuq)  
+[@baptistefkt - Baptiste Firket](https://github.com/baptistefkt)  
+[@RomainVandevoorde - Romain Vandevoorde](https://github.com/RomainVandevoorde)  
+[@makemyA - Paul Henrot](https://github.com/makemyA)  
+
+>>>>>>> 72f2267860557655b9a478fa028e9bdcfb8bdeae
