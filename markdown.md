@@ -85,18 +85,19 @@ exemple:
 1. Puce 2
 1. Puce 3   
 
-# Bloc de citation(s) - Blockquotes
+# Lien - Link
 
-Afin de convertir un bout de texte en une citation, utilisez un ```>``` au début du texte.
+Pour partager des **liens** avec MarkDown il suffit de suivre la synthaxe suivante : 
 
-**Exemple**:
-```
-> Ceci est une citation
-```
-*Résultat*
-> Ceci est une citation
+```[texte du lien](url_du_lien "texte pour le titre, facultatif")```
 
+Donc, le texte du lien, tel qu'il apparaitra cliquable, entre crochets.
+Et l'url du lien (ex: https://fr.wikipedia.org/wiki/Markdown) entre parenthèses.
+On peut également rajouter un texte descriptif du lien entre guillemets, après l'url, qui apparaitra lorsque l'on survole le lien avec la souris.
 
+# [Image](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#images)
+
+# [Video](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#vid%C3%A9os)
 
 # Tableaux - Table
 
@@ -139,15 +140,18 @@ Si jamais on veut mettre en evidence la syntaxe du language utilise dans le *blo
 ```  
 N'oubliez pas le saut a la ligne, cad **les deux espaces** à la fin de chaque ligne.
 
-## Les liens
+# Bloc de citation(s) - Blockquotes
 
-Pour partager des **liens** avec MarkDown il suffit de suivre la synthaxe suivante : 
+Afin de convertir un bout de texte en une citation, utilisez un ```>``` au début du texte.
 
-```[texte du lien](url_du_lien "texte pour le titre, facultatif")```
+**Exemple**:
+```
+> Ceci est une citation
+```
+*Résultat*
+> Ceci est une citation
 
-Donc, le texte du lien, tel qu'il apparaitra cliquable, entre crochets.
-Et l'url du lien (ex: https://fr.wikipedia.org/wiki/Markdown) entre parenthèses.
-On peut également rajouter un texte descriptif du lien entre guillemets, après l'url, qui apparaitra lorsque l'on survole le lien avec la souris.
+
 
 # Lignes horizontaux
 

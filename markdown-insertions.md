@@ -1,12 +1,4 @@
-# Les insertions en Markdown
-
-## Table du contenu
-
-1. Images
-2. Vidéos
-3. Liens ?
-
-## Images
+# Images
 
 Pour insérer des images, il faut utiliser la syntaxe suivante:
 
@@ -16,7 +8,7 @@ Exemple:
 
 ![Flies having a good time](https://i.redd.it/xpx53459sbw01.jpg)
 
-## Vidéos
+# Vidéos
 
 Il n'est pas possible d'implanter une vidéo avec Markdown, mais il est suggéré d'afficher une miniature cliquable qui amènera vers la vidéo désirée. Sous forme de code:
 
