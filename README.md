@@ -43,7 +43,7 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 
 ## Contributeurs :
 
-[@ClaudioCornea - Claudiu Cornea](https://github.com/ClaudiuCornea)  
+[@ClaudiuCornea - Claudiu Cornea](https://github.com/ClaudiuCornea)  
 [@jiftuq - Chritophe Kwizera](https://github.com/jiftuq)  
 [@baptistefkt - Baptiste Firket](https://github.com/baptistefkt)  
 [@RomainVandevoorde - Romain Vandevoorde](https://github.com/RomainVandevoorde)  
