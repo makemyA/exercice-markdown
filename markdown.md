@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-Partie PAUL :
 
 # Les listes
 
 ## Listes simple
 
+
 Il est très facile de créer des listes en Markdown. Il suffit de d'ajouter un *'*'* avant chaque liste
+
 
  Exemple:
 
@@ -35,10 +35,6 @@ exemple:
 1. Puce 2
 1. Puce 3   
 
-
-
-
-=======
 # Les Tableaux
 
 Rien de plus facile que de créer des tableaux avec MarkDown. Il suffit juste de mettre des \| à la place des *bareaux* du tableau. Il faut savoir que la premiere ligne sert d'entete, la seconde sert à indiquer l'allignement du texte a l'interieur des *cases* du tableau, a gauche: ':-', au centre: ':-:', a droite: '-:'.  
