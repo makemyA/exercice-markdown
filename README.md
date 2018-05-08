@@ -6,14 +6,9 @@ Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe 
 
 ## Status
 
-#### **Progression:** En cours ...
+#### **Progression:** Terminé
 #### **Debut&eacute; le:** Lundi 07-05-2018
-#### **Termin&eacute; le:** 
-#### **TO-DO:** 
-- [ ] Rediger le contenu des differentes parties
-- [ ] Verification du contenu
-- [ ] Merge les differentes branches avec le master
-
+#### **Termin&eacute; le:** Mardi 08-05-2018 à 12H00
 
 ## Origine du projet
 
@@ -28,16 +23,21 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 
 ## Contenus 
 
-* [x] [Titre - Heading]()
-* [x] [Accentuation - Emphasis]()
-* [x] [Liste - List]()
-* [ ] [Lien - Link ]()
-* [x] [Image]()
-* [x] [Video]()
-* [x] [Tableau - Table]()
-* [x] [Code et mise en évidence de la syntaxe]()
-* [ ] [Bloc de citation(s) - Blockquotes]()
-* [ ] [Ligne horizontale]()
+1. [Titre - Heading](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#titre---headers)
+1. [Accentuation - Emphasis](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#accentuation---emphasis)
+	1. [*Italique*](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#texte-en-italique)
+	1. [**Gras**](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#texte-en-gras)
+1. [Liste - List](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#accentuation---emphasis)
+	1. [Listes simples](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#listes-simples)
+	1. [Listes imbriquées](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#listes-imbriquées)
+	1. [Listes numérotées](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#listes-numérotées)
+1. [Lien - Link ](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#lien---link)
+1. [Image](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#images)
+1. [Video](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#vidéos)
+1. [Tableau - Table](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#tableaux---table)
+1. [Code et mise en évidence de la syntaxe](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#tableaux---table)
+1. [Bloc de citation(s) - Blockquotes](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#tableaux---table)
+1. [Ligne horizontale](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown.md#tableaux---table)
 
 
 

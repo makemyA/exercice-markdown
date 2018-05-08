@@ -1,6 +1,6 @@
 # **Documentation Markdown**
 
-Pour plus d'informations concernant ce projet rendez-vous sur le [README](https://github.com/SammuelJ/exercice-markdown/tree/master)
+##### Pour plus d'informations concernant ce projet rendez-vous sur le [README](https://github.com/SammuelJ/exercice-markdown/tree/master)
 ----------
 
 # Titre - Headers
@@ -51,13 +51,20 @@ __Ce texte est en gras__
 
 # Les listes
 
-## Listes simple
+## Listes simples
 
 
 Il est très facile de créer des listes en Markdown. Il suffit de d'ajouter un *'*'* avant chaque liste
 
 
- Exemple:
+**Exemple:**
+```
+* Une puce
+* Une autre puce
+* Une troisième puce
+```
+
+*Résultat*
 
 * Une puce
 * Une autre puce
@@ -67,7 +74,15 @@ Il est très facile de créer des listes en Markdown. Il suffit de d'ajouter un 
 
 De la même manière, nous pouvons créer des *listes imbriquées* les unes dans les autres
 
-En voici un exemple:
+En voici **un exemple**:
+```
+* Une puce
+     * Une  puce imbriquée
+     * Une deuxième puce imbriquée
+* Une deuxième puce
+* Une dernière puce 
+```
+*Résultat*
 
 * Une puce
      * Une  puce imbriquée
@@ -79,11 +94,16 @@ En voici un exemple:
 
 Dans ce cas il suffit de commencer les puces par des numéros
 
-exemple:
-
+**Exemple:**
+```
 1. Puce 1
 1. Puce 2
-1. Puce 3   
+1. Puce 3  
+``` 
+*Résultat*
+1. Puce 1
+1. Puce 2
+1. Puce 3  
 
 # Lien - Link
 
@@ -97,7 +117,7 @@ On peut également rajouter un texte descriptif du lien entre guillemets, après
 
 # [Image](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#images)
 
-# [Video](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#vid%C3%A9os)
+# [Video](https://github.com/SammuelJ/exercice-markdown/blob/master/markdown-insertions.md#vidéos)
 
 # Tableaux - Table
 

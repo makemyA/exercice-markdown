@@ -1,3 +1,8 @@
+# **Documentation Markdown**
+## **Insertions média**
+
+##### Pour plus d'informations concernant ce projet rendez-vous sur le [README](https://github.com/SammuelJ/exercice-markdown/tree/master)
+
 # Images
 
 Pour insérer des images, il faut utiliser la syntaxe suivante:
