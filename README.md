@@ -6,10 +6,9 @@ On s'occuper du **MarkDown**, faire une sheet cheat, pense-bete avec la syntaxe,
 Creer chaqu'un de votre cote une petite branche, on fera un gros merge sur le master pour la fin.
 
 Qui s'occupe de quoi:
-<<<<<<< HEAD
-Sammuel - README.md du master  
-Romain - Insertion images (statiques/animées) et vidéos  
-Claudiu -Tableaux et "bout de code"  
+Sammuel - README.md du projet   
+Romain - Insertion images (statiques/animes) et videos  
+Claudiu - Tableaux et "bout de code"  
 Paul -  
 Christophe -  
 Baptiste - 2 ou 3 niveaux de titres et sous-titres et des liens  
