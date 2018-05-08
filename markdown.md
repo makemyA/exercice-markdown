@@ -74,8 +74,9 @@ Le bloc de code
 
 Pour afficher un bloc de code, sautez deux lignes comme pour un paragraphe, puis indentez avec 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur un ligne non indentée.
 code
-
-<code>import numpy as np
+<pre>
+<code>
+import numpy as np
 import tensorflow as tf
 
 
@@ -96,6 +97,7 @@ for i in range(len(P_feature)):
 #Half Tensorflow Version with only one feature result
 P_dist2 = tf.norm(tf.reduce_sum(tf.square(tf.subtract(A_feature, P_feature[0])), 1),ord=2)
 with tf.Session() as sess:
-        pos_dist2_np = sess.run(P_dist2)</code>
-
+        pos_dist2_np = sess.run(P_dist2)
+</code>
+</pre>
 
