@@ -1,7 +1,9 @@
 # Titre - Headers
 
 Pour convertir un texte en titre, il suffit d'ajoute un ```#``` avant.
-**Exemple:**
+
+
+**Exemple**:
 
 ```
 # Ceci est un <h1>
@@ -13,6 +15,28 @@ Pour convertir un texte en titre, il suffit d'ajoute un ```#``` avant.
 ```
 *Veuillez à bien laisser un espace entre le ```#``` et le texte !*
 
+
+# Accentuation - Emphasis
+
+## Texte en *Italique*
+
+Afin de convertir un bout de texte en *italique*, utilisez un ```*``` ou ```_``` au extremité du texte.
+
+**Exemple**:
+```
+*Ce texte est en italique*
+_Ce texte est en italique_
+```
+
+## Texte en **Gras**
+
+Afin de convertir un bout de texte en **gras**, utilisez un ```*``` ou ```_``` au extremité du texte.
+
+**Exemple**:
+```
+**Ce texte est en gras**
+__Ce texte est en gras
+```
 
 # Tableaux - Table
 
