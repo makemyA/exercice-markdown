@@ -1,69 +1,388 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
-	<title>un guide pour bien commencer avec markdown - Waxo</title>
-	<meta name='author' content='Fabien Huet'>
-	<meta name='description' content='Waxo'>
-	<link rel=icon href=/assets/images/favicon.ico>
-	<link href='/assets/styles/main.css' rel='stylesheet' type='text/css'>
-	<link rel=author href='https://plus.google.com/u/0/108215978680291843501'>
-	<link rel=publisher href='https://plus.google.com/u/0/108215978680291843501'>
-	<meta name=keywords content='web developper, meteor, react, node'>
-	<meta property=og:type content=site>
-	<meta property=og:url content=http://wax-o.com/img>
-	<meta property=og:title content='Fabien Huet, web developper'>
-	<meta property=og:site_name content=waxo>
-	<meta property=og:locale content=en_US>
-	<meta property=og:description content='Hello, I’m Fabien, web ninja and food lover.'>
-	<meta property=og:image content=http://wax-o.com/img/fabien_huet.png>
-	<meta itemprop=name content='Fabien Huet, web developper'>
-	<meta itemprop=description content='Hello, I’m Fabien, web ninja and food lover.'>
-	<meta itemprop=image content=http://wax-o.com/img/fabien_huet.png>
-	<meta name=twitter:card content=summary>
-	<meta name=twitter:site content=@fabien_huet>
-	<meta name=twitter:title content='Fabien Huet'>
-	<meta name=twitter:description content='Hello, I’m Fabien, web ninja and food lover.'>
-	<meta name=twitter:creator content=@fabien_huet>
-	<meta name=twitter:image content=http://wax-o.com/img/fabien_huet.png>
-</head>
-<body>
-<nav id='sideBar'>
-	<div>
-		<img src='/assets/images/fabien_huet.png' alt='Fabien Huet'>
-		<h1>Fabien Huet</h1>
-		<p>French web ninja <br> and food lover.</p>
-	</div>
-	<menu>
-		<a href='/'>
-			Home
-			<svg xmlns='http://www.w3.org/2000/svg'>
-				<path d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/>
-			</svg>
-		</a>
-		<a target='_blank' href='https://github.com/fabien-h'>
-			Github
-			<svg xmlns='http://www.w3.org/2000/svg'>
-				<path d='M22,12c0-5.5-4.5-10-10-10S2,6.5,2,12c0,4.6,3.1,8.4,7.2,9.6c0.1-0.1,0.2-0.2,0.2-0.3c0.2-0.5,0-1.3,0-1.9 c-1,0.2-2.3,0.2-3.1-0.6C6,18.5,6,18.1,5.8,17.7c-0.3-0.5-0.6-0.8-1-1.1C4.4,16.3,4.3,16,4.9,16c0.5,0,1.1,0.4,1.4,0.8 c0.4,0.5,0.6,1,1.2,1.3c0.6,0.2,1.4,0.1,2-0.1c0.1-0.6,0.3-1.1,0.7-1.4c-1.8-0.2-3.6-0.9-4.3-2.7C5.2,12.1,5.2,10,6.5,8.7 C6.1,7.9,6.2,6.9,6.6,5.9C7.4,5.7,8.7,6.5,9.4,7c1.7-0.5,3.5-0.5,5.2,0c0.7-0.5,1.9-1.4,2.8-1.1c0.4,1,0.4,1.9,0.1,2.7 c1.3,1.4,1.3,3.5,0.7,5.1c-0.7,1.8-2.5,2.5-4.3,2.7c1,0.9,0.7,2.8,0.7,4c0,0.4-0.1,0.9,0.2,1.1C18.9,20.4,22,16.6,22,12z'/>
-			</svg>
-		</a>
-		<a target='_blank' href='http://wax-o.com/'>
-			About me
-			<svg xmlns='http://www.w3.org/2000/svg'>
-				<path d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/>
-			</svg>
-		</a>
-	</menu>
-	<!-- 	<a href='/categories'><svg xmlns='http://www.w3.org/2000/svg'><path d='M19.5,9L9,19.5c-0.6,0.6-1.6,0.6-2.3,0l-6.3-6.3c-0.6-0.6-0.6-1.6,0-2.3L11,0.5C11.4,0.1,11.8,0,12.3,0l0,0 l5.5,1.2l0,0c0.2,0,0.8,0.2,1,1l1.1,5C20.1,7.9,20,8.5,19.5,9z M16.9,3.1c-0.6-0.6-1.7-0.6-2.3,0c-0.6,0.6-0.6,1.7,0,2.4 c0.6,0.6,1.7,0.6,2.4,0C17.5,4.8,17.5,3.8,16.9,3.1z'/></svg>Categories</a>
-		<a href='/archives'><svg xmlns='http://www.w3.org/2000/svg'><path d='M19.3,0.1H0.7C0.3,0.1,0,0.3,0,0.7v3.1c0,0.4,0.3,0.7,0.7,0.7h18.7c0.4,0,0.7-0.3,0.7-0.7V0.7 C20,0.3,19.7,0.1,19.3,0.1z'/><path d='M0.4,5v7.9v1.2v4.7c0,0.6,0.5,1.2,1.2,1.2h16.8c0.6,0,1.2-0.5,1.2-1.2V14v-1.2V5H0.4z M14.2,9.1 c0,0.3-0.2,0.5-0.5,0.5H6.1c-0.3,0-0.5-0.2-0.5-0.5v-1c0-0.3,0.2-0.5,0.5-0.5h7.6c0.3,0,0.5,0.2,0.5,0.5V9.1z'/></svg>Archives</a> -->
-</nav>
-<article itemscope itemType='http://schema.org/BlogPosting' id='postContainer'>
 
-	<header>
-		<h1 itemprop='headline'>un guide pour bien commencer avec markdown</h1>
-		<p>
-			<time itemprop='datePublished' content='Tue Apr 08 2014 00:00:00 GMT+0200'>Apr 08, 2014</time>
-			 in <a class="category-link" href="/categories/Code-fr/">Code fr</a> 
-		</p>
+un guide pour bien commencer avec markdown
+
+
+
+Markdown est un système de publication et de formattage de texte minimaliste. Il est de plus en plus utilisé et je vais faire de mon mieux pour vous aider à l’apprendre rapidement.
+Contenus
+
+    Qu’est-ce que Markdown ?
+    Un peu d’histoire
+    Outils
+    La syntaxe de markdown
+    Les titres
+    Les paragraphes
+    Les sauts de ligne simple
+    L’emphase
+    Les citations
+    Les listes non ordonnée
+    Les listes ordonnées
+    Le bloc de code
+    Le code dans la ligne
+    Les filets ou barres de séparation
+    Les liens
+    Les images
+    Les tableaux
+    Échappement des caractères
+    Séparer des blocs
+    Et après ?
+
+Qu’est-ce que Markdown ?
+
+Markdown est un système d’édition et de formatage de texte ; c’est à la fois une syntaxe, un script de conversion texte → HTML et un format de fichier. Il est couramment utilisé pour les fichiers de documentation d’un projet ou d’un jeu de données -souvent nommé readme.md. Il est stocké au format texte classique et est plus léger que sa version interprétée puisqu’il ne contient pas les balises html.
+
+La philosophie du système veut que le texte écrit soit lisible sans interpréteur particulier en mode texte. Il est léger et épuré de l’essentiel de la verbosité d’un language balisé. Les éléments de syntaxe sont des caractères de ponctuation qui font sens visuellement même non convertis. Une fois converti, le navigateur web (qui joue alors le rôle d’interpréteur) en rendra la lecture plus claire.
+
+Les fichiers sont généralement enregistrés avec l’extension .md (ou .markdown ) pour indiquer aux interpréteur la nature du texte qu’il vont lire ; mais ça n’a rien d’obligatoire.
+
+Comme le résultat sera exporté en HMTL, vous pouvez tout à fait introduire directement des balises HTML dans votre texte ; mais celui-ci deviendra moins lisible et ne pourra plus être édité par quelqu’un ne maîtrisant pas le HTML. Attention, le formatage markdown ne sera pas appliqué à l’intérieur de ces balises.
+Un peu d’histoire
+
+Ce language a été créé en 2004 par John Gruber et Aaron Swartz et n’a pas évolué depuis. Même si de nombreuses extensions et “extras” sont venues se greffer au projet originel. Le projet initial avec sa documentation est sur daringfireball.
+
+Dès le départ, Gruber a écrit un script Perl pour convertir du texte markdown en XHTML. C’est tout l’intérêt du système : éditer un fichier texte simple avec quelques caractères spéciaux supplémentaires, puis le faire passer dans un script qui va l’enrichir des balises requises pour l’afficher mise en forme dans le navigateur.
+
+Il existe aujourd’hui de très nombreuses implémentations dans divers langages et des variantes augmentées de ce script pour générer du contenu lisible avec une mise en forme plus riche à partir du markdown. Vous utiliserez au minimum celles de GitHub -pour les fichiers de documentation des projets- et Stack Overflow -pour écrire vos questions et vos réponses.
+
+Ces implémentations ne sont pas forcément compatibles et introduisent chacune leur lots d’idiome. Sauf en cas de besoin très spécifiques, il est donc conseillé de s’en tenir aux possibilités de l’implémentation originelle.
+
+Le guide de l’implémentation de GitHub. Le guide de l’implémentation de Stack Overflow.
+Outils
+
+Pour découvrir markdown et voir un peu ce qu’il peut faire, vous pouvez essayer un des nombreux éditeurs en ligne comme markable, l’éditeur original de Gruber, dingus ou encore le très puissant stack edit que vous pouvez synchroniser avec google docs.
+
+Il existe de nombreux éditeurs offline. Ce tutoriel est rédigé avec l’un d’entre eux: Mou, mouapp.com pour Mac OS, gratuit. Byword bywordapp.com est également une bonne applications; Mac Os, payant. À noter que byword se synchronise sur vos différents devices. Pour Windows, il existe Write Monkey writemonkey.com, un peu austère à mon goût, mais très fonctionnel et gratuit. Pour Windows également, Markdown Pad markdownpad.com, gratuits. Pour Linux, il existe ReText ReText.
+
+Il reste possible d’ouvrir et d’éditer des fichiers markdown avec n’importe quel éditeur de code ou éditeur textuel (le notepad ou le textedit livré avec votre système d’exploitation). Mais vous êtes alors privé de la coloration syntaxique et de la prévisualisation en temps réel de ce que vous êtes en train d’écrire.
+
+La voie de la maîtrise étant la pratique, je vous conseille fortement d’utiliser Mardown Here. Une extension pour Chrome, Firefox et Safari qui converti le markdown tapé en html. Vous l’utiliserez pour formater vos emails. Ces étant lus au format html par les client mail, le format sera bien transmis. Vous enverrez des emails de meilleur qualité -surtout si des tableaux sont de la partie- et améliorerez rapidement votre compétence avec markdown.
+La syntaxe de markdown
+Les titres
+
+Il existe deux syntaxes pour les titres. Elles produisent le même résultat et vous pouvez donc utilisez l’une ou l’autre indifféremment. Essayez simplement d’être cohérent à travers vos documents.
+
+Le format Export HTMLé des titres est hx où x est le niveau de titre. Les titres de niveau 1 sont les plus importants, et l’importance décroît avec le nombre.
+
+La méthode par soulignement permet deux niveaux de titre. Il faut souligner votre ligne de texte par deux caractères ou plus -sans limite supérieure. Les = pour un titre 1 et les - pour un titre 2.
+
+Il est également possible de titrer en ajoutant des dièses au début de la ligne. Il n’y a alors pas de limite au nombre de niveaux de titres qu’il est possible d’utiliser (mais n’allez pas au delà de 7). Pour cette raison, c’est cette seconde syntaxe que je vous conseille.
+
+Il est également possible de fermer les titres par un ou plusieurs dièses, mais c’est purement esthétique.
+
+*** Code Markdown ***
+*********************
+
+<pre>Title 1
+==
+Title 2
+-
+### Title 3 #
+####  Title 4
+</pre>
+
+*** Export HTML ***
+*******************
+<pre>
+<h1>Title 1</h1>
+<h2>Title 2</h2>
+<h3>Title 3</h3>
+<h4>Title 4</h4>
+</pre
+Les paragraphes
+
+Pour afficher un paragraphe, sautez deux ligne et de taper son texte. Un seul saut de ligne correspond à un retour chariot et pas à un changement de paragraphe.
+
+Le formatage HTML sera le suivant :
+
+*** Export HTML ***
+*******************
+
+<pre><p>a paragraph</p></pre>
+
+Les sauts de ligne simple
+
+Effectuer un saut de ligne simple dans votre texte markdown n’aura aucun effet sur le Export HTMLé. Sauf si vous terminez votre ligne par un double espace (ou plus que ça). Un retour chariot sera alors exporté ; c’est la balise <br/>;.
+
+*** Code Markdown ***
+*********************
+
+Ligne sans espace à la fin
+Ligne avec 2 espaces à la fin
+Troisième ligne
+
+*** export HTML ***
+*******************
+
+Ligne sans espace à la fin Ligne avec 2 espaces à la fin
+<br/>Troisième ligne
+
+L’emphase
+
+Pour formater une partie de votre texte comme emphase, entourez le par des astérisques ou des underscores. Entourer par un signe unique passe en italique (emphase faible : *;) et par un double signe en gras (emphase forte: **;). Il est possible de combiner les deux. Un double tildes vous permettent de barrer le texte. À titre personnel, j’utilise plutôt les astérisques, mais c’est une question de goût. La seule chose importante est d’être cohérent dans vos documents.
+
+*** Code Markdown ***
+*********************
+
+<pre>Texte _dont_ certains __éléments__ sont formatés **pour _être_** en *italique*, en **bold** ou ~~barrés~~.</pre>
+
+*** export HTML ***
+*******************
+
+<pre><p>Texte <em>dont</em> certains <strong>éléments</strong> sont formatés <strong>pour <em>être</em></strong> en <em>italique</em>, en <strong>bold</strong> ou <del>barrés</del>.</p></pre>
+
+Les citations
+
+Pour afficher un bloc de citation, commencez le paragraphe par un chevron fermant. Si votre bloc contient plusieurs lignes, vous pouvez faire des sauts de lignes à la main et toutes les ouvrir par un chevron fermant, mais ce n’est pas nécessaire. Ces bloc peuvent contenir d’autres éléments markdown comme des titres ou des listes.
+
+*** Code Markdown ***
+*********************
+
+> une citation est un paragraphe ouvert par un chevron fermant
+
+*** export HTML ***
+*******************
+
+<blockquote>une citation est un paragraphe ouvert par un chevron fermant</blockquote>
+
+Les listes non ordonnée
+
+Pour afficher une liste, commencez la ligne par une astérisque *, un moins - ou un plus +. Là encore, le choix n’a pas d’importance, mais il faut rester cohérent dans votre document. Pour ma part, j’ai tendance à utiliser l’astérisque qui se rapproche un peu plus de la puce affichée au final.
+
+*** Code Markdown ***
+*********************
+
+* item
+* item
+* item
+
+-
+
++ item
++ item
++ item
+
+-
+
+- item
+- item
+- item
+
+*** Export HTML ***
+*******************
+<ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ul>
+
+Les listes ordonnées
+
+Pour afficher une liste ordonnée, commencez la ligne par un nombre suivit d’un point. Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste. Mais ce n’est pas nécessaire pour le rendu HTML. Comme vous pouvez le voir dans l’export html, la seule différence avec la liste non ordonnée est que la balise englobant les éléments est ol et plus ul. C’est le navigateur qui se charge d’ajouter les nombre pour ordonner la liste.
+
+*** Code Markdown ***
+*********************
+
+1. Item
+1234. Item
+3. Item
+4. Item
+
+*** Export HTML ***
+*******************
+
+<ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ol>
+
+Le bloc de code
+
+Pour afficher un bloc de code, sautez deux lignes comme pour un paragraphe, puis indentez avec 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur un ligne non indentée.
+code
+
+code
+
+*** Export HTML ***
+*******************
+
+<pre><code>code</code></pre>
+
+Le code inliné
+
+Pour afficher du code dans une ligne, il faut l’entourer par des guillemets simples : (`).
+
+`code`
+
+*** Export HTML ***
+*******************
+
+<code>code</code>
+
+Les filets ou barres de séparation
+
+Pour afficher un filet de séparation, entrez <hr/>; dans votre texte ou au moins 3 astérisques *ou moins - sur une ligne entourée de sauts de lignes. Il est possible de les séparer par des espaces. Faites en fonction de ce qui fait le plus de sens pour vous visuellement et restez cohérent dans votre document.
+
+*** Code Markdown ***
+*********************
+
+***
+---
+- - -
+*    *    *
+
+*** Export HTML ***
+*******************
+<hr/>
+
+Les liens
+
+Il y a deux façons d’afficher un lien. De manière automatique en encadrant un lien par des chevrons. Il est alors cliquable et affiche l’url indiquée entre chevrons.
+
+*** Code Markdown ***
+*********************
+
+<http://www.google.com>
+
+*** Export HTML ***
+*******************
+
+<a href="http://google.com">http://www.google.com</a>
+
+Ou en ajoutant des paramètres. Le texte à afficher est alors indiqué entre crochets suivit de l’adresse du lien entre parenthèses. Dans les parenthèses, à la suite du lien, on peut indiquer un titre entre guillemets. Ce titre sera affiché lors du survol du lien dans le navigateur. Il sera également lu par les navigateurs textuels pour les déficients visuels. Cette méthode est plus verbeuse lors de l’édition du document, mais plus élégante lors de sont export. Elle sera donc préférée à la première.
+
+*** Code Markdown ***
+*********************
+
+[google] (http://www.google.com "link to google")
+
+*** Export HTML ***
+*******************
+
+<a href="http://www.google.com" title="link to google">google</a>
+
+Les images
+
+Pour afficher une image, commencez par un point d’exclamation. Puis indiquez le texte alternatif entre crochets. Ce dernier sera affiché si l’image n’est pas chargé et lu par les moteurs de recherche. Terminez par l’URL de l’image entre parenthèses. Cette URL peut être un lien vers le web ou un chemin local de ce type : /dossier_images/nom_de_mon_image.jpg. Après le lien vers l’image, il est possible d’ajouter un titre lu par les navigateurs textuels et affiché au survol de l’image par les autres.
+
+*** Code Markdown ***
+*********************
+
+![Google logo](https://www.google.fr/images/srpr/logo11w.png "google logo")
+
+*** Export HTML ***
+*******************
+
+<img src = "https://www.google.fr/images/srpr/logo11w.png" title = "google logo" alt = "Google logo">
+
+Google logo
+Les tableaux
+
+Les tableaux n’existent pas dans la spécification markdown originale, mais ils sont présent dans la plupart des implémentations récentes. Et il ont vraiment une utilité très forte dans certains cas.
+
+L’idée globale est de “dessiner” des colonnes en les entourant avec des pipes |. Le nombre de colonnes est défini dans la première ligne du tableau et vous devez pour chaque ligne avoir le même nombre de colonnes, même si certaines sont vides.
+
+La première ligne sera votre en-tête. La seconde ligne sépare cet en-tête du corps du tableau et définit l’alignement du texte dans les colonnes. Elle ne contient que des tiret - et des deux points : sont utilisés pour définir cet alignement. Pas de : ou juste un à gauche signifie que le texte sera aligné à gauche. Si la ligne de - est entourée de 2 :, le texte sera centré et si un seul : est présent à droite de a ligne, le texte sera aligné à droite.
+
+*** Code Markdown ***
+*********************
+
+| Header 1      |     2 header    |   header 3 |
+| ------------- |: -------------: | ---------: |
+| 1 Online      |        1        |      value |
+| Line 2        |        2        |      value |
+| 3 Online      |        3        |      value |
+
+Résultat affiché dans le navigateur :
+
+Header 1 	2 header 	header 3
+1 Online 	1 	value
+Line 2 	2 	value
+3 Online 	3 	value
+
+*** Export HTML ***
+*******************
+
+<table>
+    <thead>
+        <tr>
+            <th>header 1</th>
+            <th align="center">header 2</th>
+            <th align="right">header 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>line 1</td>
+            <td align="center">1</td>
+            <td align="right">value</td>
+        </tr>
+        <tr>
+            <td>row 2</td>
+            <td align="center">2</td>
+            <td align="right">value</td>
+        </tr>
+        <tr>
+            <td>line 3</td>
+            <td align="center">3</td>
+            <td align="right">value</td>
+        </tr>
+    </tbody>
+</table>
+
+Vous pouvez avoir un tableau très propre comme dans l’exemple précédent pour mieux lire en mode édition. Mais ce n’est pas obligatoire. Les | en début et en fin de ligne sont optionnels. Il est possible d’imbriquer des éléments d’emphase ou de code dans les tableaux. Il n’y a besoin que d’un seul - par colonne pour la séparation entre l’en-tête et le corps du tableau.
+
+*** Code Markdown ***
+*********************
+
+1 header | header 2 | 3 header
+- |:-: | -:
+line `1` | **1** | **_valeur_**
+Line 2 | 2 | *Value*
+
+Résultat affiché dans le navigateur :
+1 header 	header 2 	3 header
+line 1 	1 	valeur
+Line 2 	2 	Value
+
+Comme on le voit, ça fonctionne encore une fois exporté, mais toute la lisibilité est perdue dans le markdown.
+Échappement des caractères
+
+Les caractères spéciaux ayant un sens en HTML et en markdown doivent être échappés. Pour les esperluètes &amp;, chevrons < et autres caractères HTML, markdown se charge de les convertir en entités HTML lors de l’export. Mais si vous souhaitez utiliser dans votre texte des astérisques, accolades, dièses… à une position indiquant à markdown que vous désirer un formatage particulier, vous devez les échapper en les faisant précéder d’un antislash \. Sinon markdown les masquera et appliquera le formatage correspondant. Les caractères suivants sont à échapper :
+
+\ * ` - _ [] () {} # + . !
+
+Séparer des blocs
+
+Une petite chose peut se révéler agaçante : deux blocs consécutifs se verront fusionnés. Ce sera le cas de deux blocs de citation ou de code par exemple. Et ce quel que soit le nombre de lignes que vous sauterez. Une solution simple est d’ajouter des commentaires html entre deux blocs. La syntaxe des commentaire est la suivante : <!-- texte en commentaire -->;. Le texte sera ignoré par le navigateur. Votre commentaire peut tout à fait être vide.
+
+*** Code Markdown ***
+*********************
+
+> Citation 1
+
+> Citation 2
+
+Résultat affiché dans le navigateur :
+
+    Citation 1
+
+    Citation 2
+
+*** Code Markdown ***
+*********************
+
+> Citation 1
+<!-- -->
+> Citation 2
+
+Résultat affiché dans le navigateur :
+
+    Citation 1
+
+    Citation 2
+
+Et après ?
+
+Une fois un markdown édité, l’utilisation la plus fréquente est de le mettre en ligne. Dans un repo Git par exemple. Mais vous pouvez également l’imprimer en pdf ou l’enregistrer au format HTML pour en faire une page web. C’est très pratique pour documenter un projet ou un jeu de données.
+
