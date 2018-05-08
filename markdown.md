@@ -75,4 +75,14 @@ Si jamais on veut mettre en evidence la syntaxe du language utilise dans le *blo
     ```
 ```  
 N'oubliez pas le saut a la ligne, cad **les deux espaces** à la fin de chaque ligne.
->>>>>>> 4cc87362b5fc1e35c484a3d4b9d91d8dca11a3a6
+
+## Les liens
+
+Pour partager des **liens** avec MarkDown il suffit de suivre la synthaxe suivante : 
+
+[texte du lien](url_du_lien "texte pour le titre, facultatif")
+
+Donc, le texte du lien, tel qu'il apparaitra cliquable, entre crochets.
+Et l'url du lien (ex: https://fr.wikipedia.org/wiki/Markdown) entre parenthèses.
+On peut également rajouter un texte descriptif du lien entre guillemets, après l'url, qui apparaitra lorsque l'on survole le lien avec la souris.
+
