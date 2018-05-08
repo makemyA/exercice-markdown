@@ -34,8 +34,8 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 * [ ] [Lien - Link ]()
 * [ ] [Image]()
 * [ ] [Video]()
-* [ ] [Tableau - Table]()
-* [ ] [Code et mise en évidence de la syntaxe]()
+* [x] [Tableau - Table]()
+* [x] [Code et mise en évidence de la syntaxe]()
 * [ ] [Bloc de citation(s) - Blockquotes]()
 * [ ] [Ligne horizontale]()
 
