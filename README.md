@@ -30,7 +30,7 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 
 * [x] [Titre - Heading]()
 * [x] [Accentuation - Emphasis]()
-* [ ] [Liste - List]()
+* [x] [Liste - List]()
 * [ ] [Lien - Link ]()
 * [x] [Image]()
 * [x] [Video]()
