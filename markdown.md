@@ -1,4 +1,20 @@
-# Les Tableaux
+# Titre - Headers
+
+Pour convertir un texte en titre, il suffit d'ajoute un ```#``` avant.
+**Exemple:**
+
+```
+# Ceci est un <h1>
+# Ceci est un <h2>
+# Ceci est un <h3>
+# Ceci est un <h4>
+# Ceci est un <h5>
+# Ceci est un <h6>
+```
+*Veuillez à bien laisser un espace entre le ```#``` et le texte !*
+
+
+# Tableaux - Table
 
 Rien de plus facile que de créer des tableaux avec MarkDown. Il suffit juste de mettre des \| à la place des *bareaux* du tableau. Il faut savoir que la premiere ligne sert d'entete, la seconde sert à indiquer l'allignement du texte a l'interieur des *cases* du tableau, a gauche: ':-', au centre: ':-:', a droite: '-:'.  
 
