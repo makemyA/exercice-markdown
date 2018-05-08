@@ -28,8 +28,8 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 
 ## Contenus 
 
-* [ ] [Titre - Heading]()
-* [ ] [Accentuation - Emphasis]()
+* [x] [Titre - Heading]()
+* [x] [Accentuation - Emphasis]()
 * [ ] [Liste - List]()
 * [ ] [Lien - Link ]()
 * [x] [Image]()
