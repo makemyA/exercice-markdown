@@ -6,10 +6,10 @@ Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe 
 
 ## Status
 
-### **Progression:** En cours ...
-### **Debute le:** Lundi 07-05-2018
-### **Termine le:** 
-### **TO-DO:** 
+#### **Progression:** En cours ...
+#### **Debut&eacute; le:** Lundi 07-05-2018
+#### **Termin&eacute; le:** 
+#### **TO-DO:** 
 - [ ] Rediger le contenu des differentes parties
 - [ ] Verification du contenu
 - [ ] Merge les differentes branches avec le master
