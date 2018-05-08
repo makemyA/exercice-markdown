@@ -15,4 +15,7 @@ mais vous pouvez ajouter des espaces ou plus de mêmes caractères pour rendre p
 
 _ _ _ _ _
 
+
+
+*********************
 Toutes ces méthodes donneront exactement le même résultat :
