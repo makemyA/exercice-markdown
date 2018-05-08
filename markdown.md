@@ -193,3 +193,4 @@ Toutes ces méthodes donneront exactement le même résultat :
 
 _ _ _ _ _ 
 Le cheval marcha vers le coucher du Soleil et le bruit de ses sabots font cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop sur le sol.
+_ _ _ _ _
