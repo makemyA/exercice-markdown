@@ -191,4 +191,4 @@ mais vous pouvez ajouter des espaces ou plus de mêmes caractères pour rendre p
  
 Toutes ces méthodes donneront exactement le même résultat :
 
-_ _ _ _ _
+_ _ _ _ _Le cheval marcha vers le coucher du Soleil et le bruit de ses sabots font cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop cataclop sur le sol.
