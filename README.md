@@ -47,5 +47,4 @@ Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/
 [@jiftuq - Chritophe Kwizera](https://github.com/jiftuq)  
 [@baptistefkt - Baptiste Firket](https://github.com/baptistefkt)  
 [@RomainVandevoorde - Romain Vandevoorde](https://github.com/RomainVandevoorde)  
-[@makemyA - Paul Henrot](https://github.com/makemyA)  
-
+[@makemyA - Paul Henrot](https://github.com/makemyA)
