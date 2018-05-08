@@ -1,13 +1,29 @@
 # Bienvenue sur MarkDown : Intelligence Collective
 
 Le Markdown est une manière super simple d'ajouter des titres, des listes à du simple texte.  
- 
-## Progression : En cours ...
+Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe créer par [notre équipe](https://github.com/SammuelJ/exercice-markdown#contributeurs-).
+**Pour y acceder**, cliquez sur le sujet qui vous intéresse dans la partie ["Contenus"](https://github.com/SammuelJ/exercice-markdown#contenus)
 
-## [Lien des consignes](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/exercice-markdown-groupe.md)
+## Status
 
-## Languages utilisés
+### **Progression:** En cours ...
+### **Debute le:** Lundi 07-05-2018
+### **Termine le:** 
+### **TO-DO:** 
+- [ ] Rediger le contenu des differentes parties
+- [ ] Verification du contenu
+- [ ] Merge les differentes branches avec le master
 
+
+## Origine du projet
+
+Ce projet est un exercice BeCode.org à faire en groupe en utilisant les technologies listées ci-dessous.
+Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/exercice-markdown-groupe.md)
+
+## Technologies utilisés
+
+* Git
+* Github
 * MarkDown
 
 ## Contenus 
