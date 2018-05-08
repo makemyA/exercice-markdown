@@ -17,10 +17,10 @@ Vous trouverez dans ce repo une documentation concernant Markdown et sa syntaxe 
 
 ## Origine du projet
 
-Ce projet est un exercice BeCode.org à faire en groupe en utilisant les technologies listées ci-dessous.
+Ce projet est un exercice [BeCode.org](https://BeCode.org) à faire en groupe en utilisant les technologies listées ci-dessous.  
 Vous pouvez retrouver les consignes [sur ce repo.](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/exercice-markdown-groupe.md)
 
-## Technologies utilisés
+## Technologies utilisées
 
 * Git
 * Github
